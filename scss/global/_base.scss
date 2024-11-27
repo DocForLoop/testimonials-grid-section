@@ -1,0 +1,55 @@
+html {
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: var(--clr-secondary);
+
+    font: {
+        weight: 500;
+        size: var(--fs-13);
+        family: var(--ff-primary);
+    }
+    
+}
+
+h1, h2, h3 {
+    line-height: 1;
+}
+
+p, li, figcaption {
+    text-wrap: pretty;
+    max-width: 65ch;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+}

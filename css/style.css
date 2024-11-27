@@ -1,1 +1,83 @@
-/*# sourceMappingURL=style.css.map */
+/* barlow-semi-condensed-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/barlow-semi-condensed-v15-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-semi-condensed-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/barlow-semi-condensed-v15-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+:root {
+  --ff-primary: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
+  --fs-20: 1.25rem;
+  --fs-13: 0.8125rem;
+  --fs-11: 0.6875rem;
+}
+
+:root {
+  --clr-primary-1: hsl(263, 55%, 52%);
+  --clr-primary-2: hsl(217, 19%, 35%);
+  --clr-primary-3: hsl(219, 29%, 14%);
+  --clr-primary-4: hsl(0, 0%, 100%);
+  --clr-secondary: hsl(210, 46%, 95%);
+  --clr-secondary-box-shadow: hsl(217 19% 35% / 0.2474);
+}
+
+html {
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: var(--clr-secondary);
+  font-weight: 500;
+  font-size: var(--fs-13);
+  font-family: var(--ff-primary);
+}
+
+h1, h2, h3 {
+  line-height: 1;
+}
+
+p, li, figcaption {
+  text-wrap: pretty;
+  max-width: 65ch;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
