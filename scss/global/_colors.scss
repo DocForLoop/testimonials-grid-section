@@ -1,8 +1,16 @@
 :root {
+    --opacity-1: 0.5;
+    --opacity-2: 0.7;
     --clr-primary-1: hsl(263, 55%, 52%);
     --clr-primary-2: hsl(217, 19%, 35%);
     --clr-primary-3: hsl(219, 29%, 14%);
     --clr-primary-4: hsl(0, 0%, 100%);
+    --clr-primary-4-opacity1: hsla(0, 0%, 100%, var(--opacity-1));
+    --clr-primary-4-opacity2: hsla(0, 0%, 100%, var(--opacity-2));
+    --clr-primary-2-opacity1: hsla(217, 19%, 35%, var(--opacity-1));
+    --clr-primary-2-opacity2: hsla(217, 19%, 35%, var(--opacity-2));
     --clr-secondary: hsl(210, 46%, 95%);
-    --clr-secondary-box-shadow: hsl(217 19% 35% / 0.2474);
+    --clr-secondary-box-shadow: hsla(217, 19%, 35%, 0.2474);
+    --clr-hero-stroke-1: hsl(264, 82%, 70%);
+    --clr-hero-stroke-2: hsl(263, 55%, 52%);
 }

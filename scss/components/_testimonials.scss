@@ -1,1 +1,111 @@
 @use '../global/functions' as *;
+
+/* General style */
+main {
+    background-color: var(--clr-secondary);
+}
+
+.testimonials {
+    padding-inline: 24px;
+    padding-block: 71px;
+}
+.testimonials__card {
+    padding-inline: 32px;
+    padding-block-start: 26px;
+    padding-block-end: 32px;
+    border-radius: rem(8);
+    box-shadow: rem(40) rem(60) rem(50) rem(-47) var(--clr-secondary-box-shadow);
+}
+
+.testimonials__avatar {
+    border-radius: 50%;
+}
+
+.testimonials__name {
+    font-size: var(--fs-13);
+}
+
+.testimonials__status {
+    font-size: var(--fs-11);
+}
+
+.testimonials__summary {
+    font-size: var(--fs-20);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* Card-1 custom style */
+.testimonials__card-1 {
+    background-color: var(--clr-primary-1);
+    background-image: url(../../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right clamp(1.5rem, 0.267605633802817rem + 5.258215962441314vw, 5rem);
+}
+
+.testimonials__avatar-1 {
+    outline: 2px solid var(--clr-hero-stroke-1);
+}
+
+.testimonials__status-1 {
+    color: var(--clr-primary-4-opacity1);
+}
+
+.testimonials__summary-1 {
+    margin-bottom: rem(24);
+}
+
+.testimonials__quote-1 {
+    color: var(--clr-primary-4-opacity2);
+    line-height: rem(18);
+    padding-right: rem(16);
+}
+
+/* Card-2 custom style */
+.testimonials__card-2 {
+    background-color: var(--clr-primary-2);
+}
+
+.testimonials__quote-2 {
+    color: var(--clr-primary-4-opacity2);
+    line-height: rem(18);
+}
+
+/* Card-3 custom style */
+.testimonials__card-3 {
+    background-color: var(--clr-primary-4);
+    color: var(--clr-primary-2);
+}
+
+.testimonials__status-3 {
+    color: var(--clr-primary-2-opacity1);
+}
+
+.testimonials__quote-3 {
+    color: var(--clr-primary-2-opacity2);
+    line-height: rem(18);
+}
+
+/* Card-4 custom style */
+.testimonials__card-4 {
+    background-color: var(--clr-primary-3);
+}
+
+.testimonials__avatar-4 {
+    outline: 2px solid var(--clr-hero-stroke-2);
+}
+
+.testimonials__summary-4 {
+    color: var(--clr-secondary);
+}
+
+.testimonials__quote-4 {
+    color: var(--clr-primary-4-opacity2);
+    line-height: rem(18);
+}
+
+/* Card-5 custom style */
+.testimonials__card-5 {
+    background-color: var(--clr-primary-4);
+    color: var(--clr-primary-2);
+}

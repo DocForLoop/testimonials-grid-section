@@ -1,1 +1,35 @@
 @use '../global/functions' as *;
+
+/* General style */
+.testimonials__info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* General style */
+.testimonials__header {
+    display: flex;
+    align-items: center;
+    gap: rem(17);
+    margin-bottom: rem(2);
+}
+
+/* Variable spacing */
+.testimonials__card {
+    display: flex;
+    flex-direction: column;
+    gap: rem(16);
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    row-gap: rem(24);
+    column-gap: rem(30);
+}
+
+main {
+    display: grid;
+    place-content: center;
+}
