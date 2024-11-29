@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://www.frontendmentor.io/solutions)
-- [Live Site](https://docforloop.github.io/)
+- [Solution](https://www.frontendmentor.io/solutions/testimonials-grid-with-grid-and-flexbox-lWH2cZC1-h)
+- [Live Site](https://docforloop.github.io/testimonials-grid-section/)
 
 ## My process
 
