@@ -110,3 +110,29 @@ main {
     background-color: var(--clr-primary-4);
     color: var(--clr-primary-2);
 }
+
+.attribution {
+    position: absolute;
+    inset-block-end: 10px;
+    inset-inline: 0;
+    font-size: 12px;
+    text-align: center;
+    color: var(--clr-primary-3);
+}
+
+.attribution__link {
+    border-radius: 3px;
+    color: var(--clr-primary-3);
+    text-decoration: underline;
+    transition: color 0.3s;
+
+    &:hover,
+    &:focus-visible {
+        color: var(--clr-primary-1);
+    }
+
+    &:focus-visible {
+        outline: 3px solid var(--clr-primary-1);
+        outline-offset: 2px;
+    }
+}
